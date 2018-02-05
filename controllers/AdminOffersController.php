@@ -19,9 +19,7 @@ class AdminOffersController extends AdminBase
 
         $offers=Offer::getListOffersPublications($page);
 
-        if($page>intval($total/Joke::SHOW_BY_DEFAULT) )
-            header('Location: /admin/show-offers/page-'.$page=intval($total/Joke::SHOW_BY_DEFAULT));
-
+       
 
         $pagination=new Pagination($total,$page,Joke::SHOW_BY_DEFAULT,'page-');
 
