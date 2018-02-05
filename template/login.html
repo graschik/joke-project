@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="fonts/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-static-top">
+    <div class="container">
+        <div class="navbar-header col-lg-3 col-md-3">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                <span class="sr-only">Открыть навигацию</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">All-JOKES.BY</a>
+        </div>
+        <div class="collapse navbar-collapse" id="responsive-menu">
+            <ul class="nav navbar-nav">
+                <li><a href="#">ТОП-15 Анекдотов</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Анекдоты<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Русские</a></li>
+                        <li><a href="#">Не русские</a></li>
+                        <!--<li class="divider"></li>-->
+                        <li><a href="#">Про чукчу</a></li>
+                        <li><a href="#">Для детей</a></li>
+                        <li><a href="#">Анекдоты 18+</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Смешные истории</a></li>
+                <li><a href="#">Страшные истории</a></li>
+            </ul>
+            <form action="" class="navbar-form navbar-right">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-sign-in"></i> Войти
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container log-in">
+    <div class="row">
+        <div class="col-xs-1 col-lg-4 col-md-4 col-sm-4"></div>
+        <div class="col-xs-10 col-lg-5 col-md-5 col-sm-5">
+            <p class="p-log-in">Вход на сайт</p>
+            <form action="" method="post">
+                <div class="input-group email">
+                    <span class="input-group-addon input-group-lg"><i class="fa fa-envelope-o fa-fw"></i></span>
+                    <input class="form-control" type="text" placeholder="Email address">
+                </div>
+                <div class="input-group pass">
+                    <span class="input-group-addon input-group-lg"><i class="fa fa-key fa-fw"></i></span>
+                    <input class="form-control" type="password" placeholder="Password">
+                </div>
+                <div class="input-group btn-login">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="fa fa-sign-in"></i> Войти
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="col-xs-1 col-lg-4 col-md-4 col-sm-4"></div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
