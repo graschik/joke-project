@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: allse
- * Date: 25.01.2018
- * Time: 21:52
- */
+
 
 class AdminOffersController extends AdminBase
 {
