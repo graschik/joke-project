@@ -1,8 +1,5 @@
 <?php
     return [
-        'product/([0-9]+)'=>'product/view/$1',
-
-        'catalog'=>'catalog/index', //method actionIndex in CatalogController
 
         'cabinet/edit'=>'cabinet/edit',
         'cabinet'=>'cabinet/index',
@@ -20,21 +17,8 @@
         'admin/show-offers'=>'adminOffers/index',
 
 
-        'admin/product/create'=>'adminProduct/create',
-        'admin/product/update/([0-9]+)'=>'adminProduct/update/$1',
-        'admin/product/delete/([0-9]+)'=>'adminProduct/delete/$1',
-        'admin/product'=>'adminProduct/index',
-
 
         'admin'=>'admin/index',
-
-        'contacts'=>'site/contact',
-        'cart/add/([0-9]+)'=>'cart/add/$1',
-        'cart/addAjax/([0-9]+)'=>'cart/addAjax/$1',
-        'cart'=>'cart/index',
-
-
-
         'category/([0-9]+)/page-([0-9]+)'=>'category/view/$1/$2',
         'category/([0-9]+)'=>'category/view/$1',
 
@@ -42,5 +26,5 @@
 
         'addition'=>'addition/index',
 
-        ''=>'site/index',           //call this if url is empty
+        ''=>'site/index',           
     ];
